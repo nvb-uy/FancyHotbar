@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "elocindev.fancy_hotbar.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"client": [
+      "HotbarMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "fancy_hotbar",
+	"version": "${version}",
+	"name": "Fancy Hotbar",
+	"description": "Fancy hotbar for your hotbary needs, requires a resourcepack!",
+	"authors": [
+		"ElocinDev"
+	],
+	"contact": {
+		"homepage": "https://legacy.curseforge.com/minecraft/mc-mods/fancy-hotbar"
+	},
+	"license": "All Rights Reserved",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"elocindev.fancy_hotbar.FancyHotbar"
+		]
+	},
+	"mixins": [
+		"fancy_hotbar.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.24",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
